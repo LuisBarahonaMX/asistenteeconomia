@@ -1,0 +1,89 @@
+
+/* ====== Fuentes ====== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Fondo en tonos azules y morados claros */
+  background: linear-gradient(135deg, #a5b4fc, #818cf8, #c084fc);
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  padding: 2rem;
+}
+
+.app-content {
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 2.5rem;
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+  font-size: 2rem;
+  color: #1e1b4b; /* Azul muy oscuro para contraste */
+  margin-bottom: 1.5rem;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #1e1b4b;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+/* ====== Botonera ====== */
+.form-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.btn-primary { background: #4f46e5; color: white; border: none; padding: 0.8rem 1.5rem; border-radius: 12px; cursor: pointer; font-weight: 600; }
+.btn-secondary { background: #10b981; color: white; border: none; padding: 0.8rem 1.5rem; border-radius: 12px; cursor: pointer; font-weight: 600; }
+.btn-orange { background: #f59e0b; color: white; border: none; padding: 0.8rem 1.5rem; border-radius: 12px; cursor: pointer; font-weight: 600; }
+
+.voice-controls {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.btn-voice {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-voice.active-off { background: #ef4444; color: white; }
+.btn-voice.active-on { background: #06b6d4; color: white; }
+
+/* ====== Respuesta ====== */
+.answer-box {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  padding: 1.5rem;
+  text-align: left;
+  color: #1e1b4b;
+  margin-top: 1.5rem;
+  min-height: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}

@@ -22,6 +22,7 @@ app.use(express.json());
 async function loadAndChunk() {
   const publicDir = path.join(process.cwd(), 'public');
   const files = await fs.readdir(publicDir);
+  
   console.log('Archivos en public/:', files);
 
   const docs = [];

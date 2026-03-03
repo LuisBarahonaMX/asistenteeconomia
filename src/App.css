@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #cbd5e1, #a5b4fc, #e9d5ff); /* Azules y morados suaves */
+  font-family: 'Montserrat', sans-serif;
+  padding: 2rem;
+}
+
+.app-content {
+  width: 100%;
+  max-width: 700px;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 2.5rem;
+  border-radius: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(5px);
+}
+
+h1 { color: #1e1b4b; margin-bottom: 2rem; }
+
+.form-container input {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+}
+
+.form-buttons { display: flex; gap: 12px; justify-content: center; margin-bottom: 1.5rem; }
+
+.btn-primary { background: #6366f1; color: white; border: none; padding: 0.8rem 1.5rem; border-radius: 12px; cursor: pointer; }
+.btn-secondary { background: #10b981; color: white; border: none; padding: 0.8rem 1.5rem; border-radius: 12px; cursor: pointer; }
+.btn-orange { background: #f59e0b; color: white; border: none; padding: 0.8rem 1.5rem; border-radius: 12px; cursor: pointer; }
+
+.voice-controls { display: flex; gap: 10px; justify-content: center; margin-bottom: 1.5rem; }
+.btn-voice { border: none; padding: 0.6rem 1.2rem; border-radius: 10px; cursor: pointer; font-weight: bold; }
+.btn-voice.active-off { background: #f1f5f9; color: #64748b; }
+.btn-voice.active-on { background: #06b6d4; color: white; }
+
+.answer-box {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 20px;
+  text-align: left;
+  color: #1e293b;
+  min-height: 100px;
+}
