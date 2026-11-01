@@ -160,6 +160,8 @@ Estas son oportunidades de desarrollo y no funcionalidades confirmadas como impl
 Ingeniería en Datos e Inteligencia Organizacional  
 [GitHub: LuisBarahonaMX](https://github.com/LuisBarahonaMX)
 
+Sitio Web:
+[Sitio Web](https://asistente-economia.web.app/)
 ## Aviso de uso
 
 Proyecto educativo y de divulgación. Su contenido no sustituye asesoría profesional financiera, fiscal, contable o legal. Las respuestas de sistemas de IA pueden contener errores y requieren verificación independiente.
